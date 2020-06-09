@@ -1,0 +1,321 @@
+body {          /* tamanho do corpo */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {                /* codigo para dar prioridade ao padding */
+    padding: 1px!important;
+}
+
+.menu-principal {   /* classe do menu principal */
+    width: 100%;
+    background-color: #888181;
+    height: 80px;
+}
+
+main, .content {      /* tamanho das logos do cabecalio e class content */
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logoaraken{                     /* logo da empresa */
+    padding: 10px;
+    width: 6%;
+    float: left; 
+}
+
+.logocarrinho{                  /* logo do Carrinho */
+padding: 10px;
+width: 90%;
+}
+
+.logologin{
+    padding: 10px;            /* logo do Login */
+    width: 100%;
+}
+
+.redes-sociais ul li{           /* Configuração do carrinho e login */
+    margin-left: 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+
+.menu-ulrs {            /* configuração dos ulrs do menu */
+    height: 80px;
+    border-bottom: 3px solid #eeffee;
+}
+
+.redes-sociais{         /* Float do carrinho e login para direita */
+    width: 15%;
+    float: right;
+}
+
+.header-2{              /* cabecalio do menu home about etc */
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu ul li{          /* configuração do home about service etc */
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 30px;
+    height: 50px;
+}
+
+.menu ul li:hover {           /* Configuração quando passar o mouse em um topico do menu */
+    border-bottom: 2px solid #00bac6;
+}
+
+.menu ul li a:hover {       /* Animação quando passa o mouse acima de um topico do menu */
+    color: #00bac6;
+
+}
+
+
+.menu ul li a {         /* Tamanho da letras do texto e da cor do topicos do menu */
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {             /* classe do menu */
+    width: 70%;
+    float: left;
+}
+
+.busca {            /* classe do texto da busca */
+    text-align: center;
+    width: 25%;
+    float: right;
+}
+
+.busca input {          /* classe da busca e configuração da Lupa na direita e tamanho da caixa */
+    background-image: url('../img/lupa.svg');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 10px;
+    padding: 12px;
+    width: 250px;
+    margin-top: 10px;
+    border: 1px solid #d6d6d6;
+}
+
+.col-100 {  /* codigo para a coluna ficar 100% */
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {   /* codigo da setinha previous (a esquerda) do carrossel */
+font-size: 0px;
+border: none;
+width: 48px;
+height: 48px;
+z-index: 9; /* z index é para o elemento no caso o botão ficar acima as imagens vai subir acima sempre */
+top: 40%; /* vai fazer descer a seta */
+position: absolute;
+background-color: transparent;
+background-image: url("../img/arrowleft.png");
+left: 5%;
+}
+
+button.slick-next {     /* codigo da setinha next (a direita) do carrossel */
+    font-size: 0px;
+    border: none;
+    width: 48px;
+    height: 48px;
+    z-index: 9; /* z index é para o elemento no caso o botão ficar acima as imagens vai subir acima sempre */
+    top: 40%; /* vai fazer descer a seta */
+    position: absolute;
+    background-color: transparent;
+    background-image: url("../img/arrowright.png");
+    right: 5%;
+    }
+
+.carrossel {   /* class do carrossel */
+    width: 100%;
+}
+
+
+
+.slick-list{        /* codigo de prioridade pro slick list */
+    width: 100%!important;
+}
+
+.overflow{
+    overflow: hidden;           /* concerto do scroll infinito com os slides */
+
+}
+
+.slick-dots li button{          /* Class dos botões do carrossel */
+    font-size: 0px;
+    border: 2px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {       /* as bolinhas do carrossel */
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 85%;
+}
+
+li.slick-active button {        /* cor do botão em que o slide se apresenta */
+    background: #00bac6;
+}
+
+.slick-dots li {        /* codigo para deixar as bolinhas do carrossel uma do lado da outra */
+    padding-left: 15px;
+    display: inline-block;
+}
+
+.texto-destaque{   /* alinhas o texto no centro */
+    text-align: center;
+}
+
+.texto-destaque strong{ /* alterar a cor do negrito */
+    color: #646464;
+}
+
+.texto-destaque h1{   /* a cor da fonte h1 */
+    color: #818181;
+    font-size: 30px;
+    text-transform: uppercase;   /* deixar todas letras em maiusculo do h1 */
+}
+
+.texto-destaque p{    /* a cor da fonte do paragrafo */
+    color: #9a9a9a;  
+    font-size: 15px;      
+}
+
+
+.link1{            /* tamanho das imagens */
+    width: 100%;
+    height: 100%;
+}
+
+.col-3{            /* tamanho dos textos e distanciamento um do outro */
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.bloco-imagem img { /* deixar as imagens com o mesmo tamanho no caso 100% margem automatica */
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+.bloco-imagem {
+    height: 450px;        /* aqui estou com dificuldade de deixar uma % igual a todos caso o texto aumente */
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;   /* o tamanho do padding q esta a imagem e texto pra cima */
+    padding-bottom: 15px; /* idem texto de cima mas pra baixo */
+    margin-left: 10px;
+}
+.bloco-imagem b, p {      /* deixar os textos no bold e paragrafo alinhados no centro */
+    text-align: center;
+}
+
+
+.bloco-texto{        /* dar uma queda de pixel em relação aos demais */
+    margin-top: 3em;
+}
+
+.bloco-rodape{        /* dar uma queda de pixel em relação aos demais */
+   padding: 10px;
+}
+
+h3 {           /* para tirar o negrito da frase inteira e dar importancia a isso */
+    font-weight: normal!important;
+}
+
+.bloco-imagens-texto {       /* cor de fundo */
+    background-color: #eeeeee;
+}
+
+
+.col-4{      /* codigo para alinhar quem esta na classe col4 */
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-3 img{      /* margem da classe col4 */
+    cursor: pointer; /* transforma como se fosse um link as imagens */
+    }
+
+
+.footer h3{     /* alinhar o texto pra esquerda */
+    text-align: left;
+    }
+
+.footer {
+    background-image: url(../img/footer.png) ;  /* imagem do footer */
+    color: #ffffff;   /* tudo que colocar dentro do footer tera a cor branca */
+}
+
+.relogio{    /* cor da fonte do horario de funcionamento */
+    color: #898989;
+}
+
+.footer p{   /* deixando melhor visual nas linahs dentro do footer */
+    width: 90%;
+    text-align: left;
+}
+
+.relogio:before{         /* relogio do horario de funcionamento */
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(../img/relogio.png);
+    padding-left: 5px;
+    background-repeat: no-repeat;
+}
+
+.local:before, .email:before, .telefone:before{   /* posicionamento das logos  do local email e telefone usei o before pra ficar antes do texto */
+    content: '';
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    padding-left: 9px;
+    background-repeat: no-repeat;
+
+}
+
+.local:before { /*imagem do local antes do texto */
+    background-image: url(../img/aqui.svg);
+}
+
+.email:before{    /* imagem do email antes do texto */
+    background-image: url(../img/email.svg);
+}
+
+.telefone:before{     /* imagem do telefone antes do texto */
+    background-image: url(../img/phone.svg);
+}
+
+.footer2{      /* aqui é o fundo da imagem do footer2 (o 2º footer) */
+    background-image: url(../img/footer2.png);
+    color: #c1c1c1;
+    height: 70px;
+}
+
+.footer2 p{ /* espaçamento */
+    padding: 10px;
+}
